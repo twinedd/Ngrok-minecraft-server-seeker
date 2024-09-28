@@ -9,3 +9,5 @@
 
 ## /stop_scanning
 #### stop's scanning servers
+
+![preview](https://cdn.discordapp.com/attachments/1201086564730675231/1289730869296107590/image.png?ex=66f9e2f9&is=66f89179&hm=5e95784d71b3d32c349ae5eff7efa98d4c35378e5945dcc7d5ee71296a17b090&)
