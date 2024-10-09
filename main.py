@@ -14,13 +14,13 @@ async def on_ready():
 
 def create_embed_forscan():
     embed = discord.Embed(title = "Scanning is started!",description = "It may take some time...",color = discord.Colour.default())
-    embed.set_author(name="NgrokSeeker", icon_url="https://cdn.discordapp.com/attachments/1279804713113751622/1280464838807654506/icons8--128.png?ex=66d82d4f&is=66d6dbcf&hm=460bccc85386ed6f1a828907010623274d1f25bb8e4f282ccef3e0c10ffeb011&")
+    embed.set_author(name="NgrokSeeker", icon_url="https://github.com/twinedd/pngs/raw/main/icons8--128.png")
     return embed
 
 def create_embed_forfound(list_players, motd, players_online, version, ip):
     ServerInfo = requests.get(f'https://api.mcsrvstat.us/3/{ip}')
     embed = discord.Embed(title="Succesfully founded server",description=f"**Player's** {list_players}\n**Server's description:** {motd}",color=discord.Colour.green(),)
-    embed.set_author(name = 'NgrokSeeker', icon_url =' https://cdn.discordapp.com/attachments/1256392670255779941/1280290797169938548/green-wifi-15069.png?ex=66d78b38&is=66d639b8&hm=08eb2310890402bc353607b823effc700eb9856eceec80827db886fa452f6010&')
+    embed.set_author(name = 'NgrokSeeker', icon_url ='https://github.com/twinedd/pngs/raw/main/green-wifi-15069.png')
     embed.add_field(name = "Server's ip:", value = f'```{ip}```')
     
     embed.set_thumbnail(url=f'https://api.mcsrvstat.us/icon/{ip}')
