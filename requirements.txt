@@ -1,0 +1,4 @@
+py-cord
+aiohttp==3.9.5
+mcstatus
+requests
