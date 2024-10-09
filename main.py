@@ -85,7 +85,6 @@ def randomizer(ctx, list_servers, version_check):
                     return
                 bot.loop.create_task(ctx.send(embed = create_embed_forfound(list_players = list_players, motd = server.motd.raw, version = version, players_online = server.players.online, ip = ip)))
             except:
-                print(ip)
                 pass
 
 @bot.slash_command()
