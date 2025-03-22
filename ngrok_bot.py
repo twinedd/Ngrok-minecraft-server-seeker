@@ -92,8 +92,8 @@ def randomizer(ctx, list_servers, version_check):
                     print('return')
                     return
                 bot.loop.create_task(ctx.send(embed = create_embed_forfound(list_players = list_players, motd = f'```ansi\n{to_ansi_123(Motd.parse(server.motd.raw).to_minecraft())}```', version = version, players_online = server.players.online, ip = ip)))
-            except Exception as s:
-                print(s)
+            except:
+                pass
 
 @bot.slash_command()
 async def stop_scanning(msg):
